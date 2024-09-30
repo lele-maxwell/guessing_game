@@ -1,6 +1,5 @@
-Try These :
 
-```#!/bin/bash
+#!/bin/bash
 # A simple number guessing game script
 guessing_number() {
     rand_number=$((RANDOM % $1))
@@ -27,4 +26,3 @@ guessing_number() {
 # Call the function with a range (e.g., 10)
 guessing_number 10
 
-`
